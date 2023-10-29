@@ -187,7 +187,7 @@ def v2():
         print(logo)
         tl = str(len(user))
         print('\033[1;31m[\033[1;32m=\033[1;31m]\x1b[38;5;46m SIM CODE : '+kode)
-        print('\033[1;31m[\033[1;32m=\033[1;3guru
+        print('\033[1;31m[\033[1;32m=\033[1;3guru)
             pwx = [kode+kodex+kod+guru,kod+guru,kodex+guru,kode+kodex+kod,'304050','607080']
             akash.submit(rcrack1,uid,pwx,tl)
     print(linex)
