@@ -92,7 +92,7 @@ def fuck():
       print(f'\33[1;92m[+] YOUR KEY  : '+id+'')
       linex()
       input(f'\33[1;92m[+] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Key%20The%20Key%20Is%20:%20'+id);os.system('am start https://wa.me/+8801787328738?text='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Key%20The%20Key%20Is%20:%20'+id);os.system('am start https://wa.me/+8801891141768?text='+tks),approval()
       time.sleep(9)
       approval()
   except:
