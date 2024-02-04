@@ -140,35 +140,10 @@ logo=(f"""
 \x1b[38;5;46m\x1b[38;5;254m─────────────────────────────────────────────\x1b[38;5;50m
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mDeveloper \033[1;31m—\x1b[38;5;46mMr.Roton
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mFacebook  \033[1;31m—\x1b[38;5;46mMr.Roton
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m —\x1b[38;5;46m1.3
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mVersion  \033[1;31m —\x1b[38;5;46m1.4
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mTools  \033[1;31m   —\x1b[38;5;46mRandom Cloning
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46mType  \033[1;31m    —\x1b[38;5;46mPaid
 \x1b[38;5;50m\x1b[38;5;254m─────────────────────────────────────────────\x1b[38;5;50m""")
-#--------------------[ FUCK-MANU ]---------------------#
-def fuck():
-  os.system('clear')
-  print(logo)
-  uuid = str(os.geteuid())
-  id = "=".join(uuid)
-
-  try:
-    httpCaht = requests.get('https://github.com/denjar223/server/blob/main/Dls.txt').text    
-    if id in httpCaht:
-      print(f" APPROVED SUCCESSFUL PLZ W8")
-      msg = str(os.geteuid())
-      time.sleep(4.9)
-      morshed_M()
-      pass
-    else:
-      print(f'\33[1;92m[+] YOUR KEY  : '+id+'')
-      linex()
-      input(f'\33[1;92m[+] IF U WANT TO BUY THEN PRESS ENTER ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Key%20The%20Key%20Is%20:%20'+id);os.system('am start https://wa.me/+8801787328738?text='+tks),approval()
-      time.sleep(9)
-      approval()
-  except:
-    sys.exit()
-    
 #--------Main---------#
 def Main():
 	os.system('clear')
@@ -250,21 +225,21 @@ def b(uid,pwx,tl):
 			'path': 'https://x.facebook.com/?_rdc=1&_rdr',
 			'scheme': 'https',
  		   'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
- 		   'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-  		  'cache-control': 'max-age=0',
-  		  'dpr': '2.700000047683716',
-		    'sec-ch-prefers-color-scheme': 'light',
-  		  'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-		    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
-		    'sec-ch-ua-mobile': '?1',
+   		 'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+ 		   'cache-control': 'max-age=0',
+   		 'dpr': '2.700000047683716',
+  		  'sec-ch-prefers-color-scheme': 'light',
+ 		   'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+  		  'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
+  		  'sec-ch-ua-mobile': '?1',
  		   'sec-ch-ua-model': '"POCO M2 Pro"',
 		    'sec-ch-ua-platform': '"Android"',
-  		  'sec-ch-ua-platform-version': '"12.0.0"',
+ 		   'sec-ch-ua-platform-version': '"12.0.0"',
   		  'sec-fetch-dest': 'document',
  		   'sec-fetch-mode': 'navigate',
-		    'sec-fetch-site': 'none',
- 		   'sec-fetch-user': '?1',
- 		   'upgrade-insecure-requests': '1',
+ 		   'sec-fetch-site': 'none',
+  		  'sec-fetch-user': '?1',
+  		  'upgrade-insecure-requests': '1',
 			'user-agent': pro,}
             lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
